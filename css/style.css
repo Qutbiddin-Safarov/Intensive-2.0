@@ -313,7 +313,10 @@
           font-size: 20px;
         }
         .f-list-link{
-          font-size: 10px;
+          font-size: 14px;
+        }
+        .l-2{
+          padding-bottom: 75px;
         }
         .footer-container{
           flex-direction: column;
