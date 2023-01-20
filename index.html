@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- STYLE -->
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- Normalize -->
+            <link rel="stylesheet" href="./css/normalize.css">
+        <!-- Normalize -->
+    <!-- STYLE -->
+    <title>Intensive</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container header-container">
+            <!-- NAVBAR -->
+            <nav class="navbar">
+                <!-- List-1  (logo) -->
+                <ul class="nav-list">
+                    <li class="list_item">
+                        <img src="./img/logo.svg" alt="site-logo">
+                    </li>
+                    <!-- List-2 (text) -->
+                    <ul class="list-text_list">
+                        <li class="text-list_item">
+                            <a href="#" class="text-list_link">Домой</a>
+                        </li>
+                        <li class="text-list_item">
+                            <a href="#" class="text-list_link link-center">Особенности</a>
+                        </li>
+                        <li class="text-list_item">
+                            <a href="#" class="text-list_link">Преимущества</a>
+                        </li>
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- HEADER -->
+
+    <!-- MAIN -->
+    <main class="site-main">
+        <!-- HERO section -->
+        <section class="hero">
+            <div class="container hero-container">
+                <!-- HERO content box -->
+                <div class="content-box" id="content_box">
+                    <!-- IMG div -->
+                    <div class="hero-img_box">
+                        <img src="./img/hero-1.png" alt="web-planet">
+                    </div>
+                    <!-- TEXT div -->
+                    <div class="hero-text_box">
+                        <h1 class="site-h1">
+                        Разработано 2000+ приложений
+                        </h1>
+                        <p class="hero-p">
+                            Для вашего удобства мы разработали<br> 
+                            множество приложений для вашего <br> 
+                            бизнеса и команды, которые доступны <br>
+                            в любое время суток 
+                        </p>
+                        <a href="" class="hero-btn">
+                            Присоединяйтесь
+                        </a>
+                    </div>
+                </div>
+                <!-- toggles -->
+                <div class="toggles">
+                    <button onclick="hero_1()" class="tgl tgl-1" id="tgl1"></button>
+                    <button onclick="hero_2()" class="tgl tgl-2" id="tgl2"></button>
+                    <button onclick="hero_3()" class="tgl tgl-3" id="tgl3"></button>
+                </div>
+                <!-- toggles -->
+            </div>
+        </section>
+        <!-- HERO section -->
+
+        <!-- FEATURES section -->
+            <section class="features">
+                <div class="container features-container">
+                    <!-- FEATURES content box -->
+                    <div class="content-box_features">
+                        <!-- FEATURES INFO list -->
+                        <ul class="features-list">
+                            <li class="f-list-item">
+                                <button class="f-list-link l-1" onclick="fLink_1()" id="f_l1">Для бизнеса</button>
+                            </li>
+                            <li class="f-list-item f-center">
+                                <button class="f-list-link l-2" onclick="fLink_2()" id="f_l2">Для колл-центров</button>
+                            </li>
+                            <li class="f-list-item">
+                                <button class="f-list-link l-3" onclick="fLink_3()" id="f_l3">Облачные хранилища</button>
+                            </li>
+                        </ul>
+                        <!-- FEATURES INFO -->
+                        <p class="features-info" id="f_info">
+                            Создаем кастомизированные программы и сервисы
+                            для развития <br>
+                            управленческих команд в российских и
+                            международных компаниях
+                        </p>
+                    </div>
+                    <div class="features-info-cards">
+                        <div class="h2_box">
+                            <h2 class="features-h2">
+                                Преимущества
+                            </h2>
+                        </div>
+                        <div class="cards">
+                            <div class="card-1 card">
+                                <img src="./img/features-1.png" class="f-img" alt="call-center">
+                                <h2 class="card_title">
+                                    Поддержка 24/7
+                                </h2>
+                                <p class="card_info">
+                                    Вы можете положиться на нашу круглосуточную
+                                    поддержку, которая решит любой вопрос в течении часа
+                                </p>
+                            </div>
+                            <div class="card-2 card">
+                                <img src="./img/features-2.png" class="f-img" alt="greeting">
+                                <h2 class="card_title">
+                                    Гарантия возврата
+                                </h2>
+                                <p class="card_info">
+                                    Если вам не понравится сервис, мы вернем вам
+                                    полную стоимость в течении 30-дневного периода
+                                </p>
+                            </div>
+                            <div class="card-3 card">
+                                <img src="./img/features-3.png" class="f-img" alt="man">
+                                <h2 class="card_title">
+                                    Удобство и простота
+                                </h2>
+                                <p class="card_info">
+                                    Все наши сервисы и приложения интуитивно понятны
+                                    для пользователей всех уровней
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- FEATURES section -->
+    </main>
+    <!-- MAIN -->
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <!-- FOOTER LOGO (or text) -->
+            <div class="footer-text_box">
+                <h2 class="footer-text">
+                    2000-2022 © System
+                </h2>
+            </div>
+            <!-- FOOTER imgages (links) -->
+            <div class="footer-img_box">
+                <ul class="img-list">
+                    <li class="img-list_item">
+                        <a href="###" class="img-list_link">
+                            <img src="./img/facebook.svg" alt="facebook logo" class="img-list_img">
+                        </a>
+                    </li>
+                    <li class="img-list_item">
+                        <a href="###" class="img-list_link">
+                           <img src="./img/twitter.svg" alt="twitter logo" class="img-list_img"> 
+                        </a>
+                    </li>
+                    <li class="img-list_item">
+                        <a href="###" class="img-list_link">
+                            <img src="./img/instagram.svg" alt="instagram logo" class="img-list_img">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER -->
+
+
+    <!-- SCRIPTS -->
+        <script src="./js/main.js"></script>
+    <!-- SCRIPTS -->
+</body>
+</html>
